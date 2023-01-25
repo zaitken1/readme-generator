@@ -14,6 +14,6 @@ To run this README generator application, you will need to go to the Terminal/Co
 
 ## Links
 
-You can view the same README file here: https://github.com/zaitken1/readme-generator/blob/master/example-README.md
+You can view the sample README file here: https://github.com/zaitken1/readme-generator/blob/master/example-README.md
 
-You can view my walkthrough video here:
+You can view my walkthrough video here: https://youtu.be/d4hU5worKpw

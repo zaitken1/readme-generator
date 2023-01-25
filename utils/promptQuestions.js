@@ -45,7 +45,7 @@ function promptQuestions() {
         }
     ]).then(answers => {
         //Write user input answers to README file
-        return fs.writeFile('./README.md', generateMarkdown(answers));
+        return fs.writeFile('./example-README.md', generateMarkdown(answers));
     });
 };
 
