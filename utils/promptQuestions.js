@@ -3,6 +3,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const generateMarkdown = require('./generateMarkdown');
 
+//Function containing questions for user input
 function promptQuestions() {
     inquirer.prompt([
         {
@@ -43,6 +44,7 @@ function promptQuestions() {
             message: 'Enter your email address'
         }
     ]).then(answers => {
+        //Write user input answers to README file
         return fs.writeFile('./README.md', generateMarkdown(answers));
     });
 };
